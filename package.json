@@ -1,0 +1,14 @@
+{
+  "name": "food-ui",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @food-ui/api\" \"npm run dev --workspace @food-ui/web\"",
+    "build": "npm run build --workspace @food-ui/api && npm run build --workspace @food-ui/web",
+    "typecheck": "npm run typecheck --workspace @food-ui/api && npm run typecheck --workspace @food-ui/web"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
