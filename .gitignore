@@ -1,0 +1,19 @@
+# Node / Vite
+node_modules/
+apps/**/dist/
+apps/**/.vite/
+*.tsbuildinfo
+
+# .NET
+**/bin/
+**/obj/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
