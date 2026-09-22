@@ -1,19 +1,6 @@
-# Node / Vite
 node_modules/
-apps/**/dist/
-apps/**/.vite/
-*.tsbuildinfo
-
-# .NET
-**/bin/
-**/obj/
-
-# Local environment
+dist/
+.DS_Store
 .env
 .env.*
 !.env.example
-
-# macOS / editors
-.DS_Store
-.vscode/
-.idea/
